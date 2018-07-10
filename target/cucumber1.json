@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Busca com sucesso",
+        "description": "",
+        "id": "selenium-busca;busca-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "eu acesso o site Selenium HQ",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "preecho as informacoes da Busca",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "realizo acao Procurar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "eu vejo o resultado da consulta com sucesso",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Selenium Busca",
+    "description": "As novo cliente\nQue acessa o site Selenium HQ\nEu desejo realizar uma busca no site",
+    "id": "selenium-busca",
+    "keyword": "Feature",
+    "uri": "src/test/java/specifications/SeleniumBusca.feature"
+  }
+]
